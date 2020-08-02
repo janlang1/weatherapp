@@ -1,0 +1,12 @@
+Zoom Link
+https://usc.zoom.us/rec/share/xe5WAazU1mBJTInu0m_eB4sKQrz7T6a8hyIX-vsOyU7U0JhRJLgAoTxPXFGvwInf 
+
+(meeting link took a while to email, which is why this commit is later than the task sheet)
+
+
+Meeting Participants
+Lauren Hampson
+Satoshi Nakamura
+Alex Gertel
+John Kang
+Jung Choi

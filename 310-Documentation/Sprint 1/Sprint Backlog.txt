@@ -1,0 +1,28 @@
+Our Sprint Backlog following our Sprint 1 Planning Meeting goes as follows:
+
+Sprint Backlog
+1. Create a template for the front end of a login page for the WeatherPlanning app. Base the page on firebase user authentication or google authentication. mockup login page, firebase or google authentication.
+2. To work on maintaining the user’s information beyond just a single session we plan to describe the system we want to implement, using tools like mySQL or Firebase, to work towards the final goal of maintaining the user’s information.
+3. Explain/Mockup how we plan to view the results of prior searches, and get feedback on our design.
+4. Modify one of the current webpages to the ideal modern UI, run by the team before implementing on all pages.
+5. For the pagination of search results, change the front end for the search result table on one of the search pages, either Activity or Vacation, and make it a number of pages to click through instead of scrolling through many results.
+6. As a first step to ranking the cities based on likes, design out a potential system for tracking likes, such as the user saves a city to favorites, and each time a city is added to favorites by any users, then a like is added. 
+7. Have an added box for distance radius on both the Activity and Vacation page.
+
+How were the Sprint Backlog Items chosen by the team?
+In our initial sprint planning meeting, the team realized that it was essential that we use this 
+first sprint to work broadly on all major parts of the product backlog, so that we could elicit 
+information during our sprint demonstration.  Through this elicitation of information we could then 
+modify our project in a way that fit the requirements specified by the professor and the CPs.  With 
+this we decided to have 7 different items on the Sprint Backlog each of which being a breakdown of 
+the corresponding Product Backlog item.  We decided to work mostly on the front end for this portion 
+so that we could prototype what the system would look like and what it would do, and design out backend 
+focused parts of our project, like the database generation.
+
+Meeting Participants:
+Lauren Hampson
+Satoshi Nakamura
+Jung Choi
+Alex Gertel
+John Kang
+

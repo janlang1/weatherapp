@@ -1,0 +1,65 @@
+Sprint Backlog
+
+1. Remove google authentication from the login page, have it just be email/username and password based.
+2. Add logout functionality to the website.  
+3. Make sure logout functionality updates the session and does redirects properlyHave logout functionality
+4. Add a logout page, and logout link on all pages (except for sign up and log in)
+5. For the UI on the Sign Up page, make sure that the submit button for signing up reads “Sign Up” instead of “Sign Up”
+6. Update the redirects for this website.  When a user signs up or logs in it should redirect to the homepage,
+or cause errors if there are problems.
+7. Signing up should sign in the user and redirect.
+8. Ensure that the user can not access any webpages except for sign up and log in prior to signing up or 
+logging in (basically remove all guest functionality)
+9. Add a valid account check to the login code so that if invalid account info is entered, the website won't 
+think a user has logged in
+10. Have a way to reflect the user logged in across all pages. (Or on search history, list out their name)
+11. Implement unit and acceptance tests for all features of the Log in, Log out , and sign up pages.
+12. Remove the nav bar from signup/login pages
+13. Implement the database to maintain the user information over all webpages in the program
+14. For the database, Track the user logged in, their search history, likes, etc.
+15. Add acceptance tests for the database to show which information is being saved, 
+i.e. search for something, show that it shows up in one user's search history and not another.
+16. Implement the Prior Search Page, and how we load in the city information for those searches
+17. Write acceptance tests for the search history page, ensuring that it loads the correct information about the cities.
+18. Add the icons to the nav bar for the updated UI, and if we choose, find icons for the new additions to the nav bar as well
+19. Change the nav bar color to be darker so that it is more visible and distinct on the page.
+20. Implement the updated ui on all webpages, so that the appearance of the website is consistent and cohesive.
+21. Make sure the show me the weather button on the main search page is on one line
+22. Change the “Change Units” button to a toggle between celsius and fahrenheit
+23. Make sure that when the results load on the pages, there is not a scroll bar on the side of the page 
+(aka all content should be in “one” page)
+24. Add acceptance tests for all aspects of the UI
+25. Make sure to update pages to reflect the features needed from project 1 (graph and images on analysis). 
+26. Fix the sorting feature by distance for the activity page, and the vacation planning page.
+27. Update the numbers in the tables to start at 1 and continually increase without resetting to one on the next page.
+28. Add a next and previous button to the pagination on the vacation and activity pages.
+29. If there are more than 5 pages of results, make sure to only show 5 pages at a time.
+30. Add more acceptance tests for the pagination for next and previous and show that it is updating which 
+pages are on the screen (when there are more than 5)
+31. Once the favoriting system is implemented, add a column for the number of favorites to the table.  
+This column should also have the functionality to sort the results (like distance)
+32. Make sure that the correct distance is being gathered from the API
+33. When sorting results, make sure that all pages are updated, so reload the page as a whole with the 
+sorted results in the paginated pages.
+34. Implement a liking system for the cities → Do based on favorites and add it to the database, with a list of favorited cities.
+35. Add tests to ensure that the correct number of likes is added to the favorited cities across multiple user accounts and searches.
+36. Add the functionality of defining the radius for the search field
+37. Make sure that no cities outside that radius are being added.
+38. Add tests for the radius of the search field to the acceptance tests.
+39. Error validation to Activity and Vacation pages.
+
+How were the Sprint Backlog Items chosen by the team?
+In our second sprint planning meeting, the team realized that it was time to really dive deep into the implementation for the project, 
+based on the feedback for the CPs.  The CPs gave us some very clear feedback that was represented in our sprint retrospective, and for 
+the most part it broke our project down into some really clear points for the backlog.  We know we need to implement the things talked 
+about in our sprint review, in order to elicit more information so it is essential that that is what we focus this sprint on. For this 
+sprint we need to work more on connecting all of our separate features together and doing program wide code, rather than changing a bit 
+of the implementation on each page to get some feedback.  We realize this is our last chance to get feedback before sprint 3 so we need 
+to get as much as possible completed.
+
+Meeting Participants:
+Lauren Hampson
+Satoshi Nakamura
+Jung Choi
+Alex Gertel
+John Kang

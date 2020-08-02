@@ -1,0 +1,27 @@
+Product Backlog Prior to Sprint 2
+
+Project   2   builds   on   and   adds   more   sophisticated   features   to   Project   1.    All   requirements   for 
+
+project   1   are   included   in   and   hold   for   project   2   unless   they   directly   contradict   with   the   features 
+
+requested   for   project   2. 
+
+ 
+
+Below are the features requested.  Each is listed with its total point value for the project.
+
+
+
+1. [20]   The   application   must   be   secure   and   protect   confidentiality   of   users’   data. 
+
+2. [15]   Maintain   users’   information   beyond   just   a   single   session 
+
+3. [15]   View   results   of   prior   searches   via   search   history. 
+
+4. [20]   User   interfaces   must   look   modern   and   be   attractive. 
+
+5. [16]   Allow   for   pagination   of   results   returned   by   both   searches. 
+
+6. [18]   Allow   cities   returned   in   searches   to   be   ranked   by   likes. 
+
+7. [16]   Set   the   distance   radius   of   both   searche

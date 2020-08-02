@@ -1,0 +1,61 @@
+Sprint Retrospective 2
+
+Members Present
+
+Lauren Hampson
+
+Satoshi Nakamura
+
+John Kang
+
+Alex Gertel
+
+Jung Choi
+
+
+
+Things to change:
+
+Marked down because we had travis running on main branch--> due to a wording error on our grading table for sprint 1, we had travis runnning on
+master.  We know now that it is not supposed to and so we will not have travis running on master for this sprint, only on our
+personal branches and develop.
+
+Marked down for having issues mastering the develop branch--> while we are unsure of what this is caused by, we will go to office hours
+and discuss with the cps so that we can properly integrate into develop branch and avoid merge conflicts. We will try using only pull 
+requests as it is easier to manage merge conflicts on github rather than eclipse.
+
+We still need to work on refactoring and review for this next sprint.  This past sprint we had a few good options for our refactioring
+but it is important that we really look into what design changes we can make to truly improve our code. Some options we were given
+were improving loop complication, and removing duplicate code.
+
+We were still marked down on sustainable pace.  We need to make sure we are integrating as we go along rather than mainly in the second 
+week, so that the graders can see our progress being made.
+
+
+
+Sprint Review Notes--Summary what is going onto the product backlog, given that it was hard to do task by task 
+given the length of our sprint backlog:
+
+1. Add the necessary acceptance tests for the radius field on both vacation and activity.
+2. Add the acceptance tests needed for all UI aspects.
+3. Change the format of the search history page.  Instead of having a seperate search history page, make sure that it is the 
+last 4 most recent searches and is only present on the homepage. Add accpetance tests for this as well.  Make sure they are only valid
+searches, and unique to the user.
+4. Move the nav bar to the bottom of the page on all pages. 
+5. Make sure that when a new user logs in, all session data has been cleared and the website is reinitialized.
+6. Implement the liking system.  Since we were unable to gain feedback we will implement this to the best of our knowledge, and add acceptance
+tests to show how this works.
+7. Hash and unhash the passwords so that the users password is not stored as plain text in the firebase database
+8. Make sure that the analysis page is fully funcitoning and has a consistent UI
+9. Change the "prev" and "next" buttons on the vacation and activity pages to "Previous" and "Next"
+10. Remove the num results field from the vacation and activity pages.
+11. For pagination, make sure to highlight the current page that the user is on in the results section.
+12. Make sure that the UI is consistent on all pages.
+13. Make sure the log out button is on all pages. 
+14. Make sure that there are adequate acceptance tests for all aspects of the project, regardless of whether or not we have gained feedback,
+or specific guidelines for it.
+15. Make sure that the accurate page is loaded when the user enters the website. 
+16. Make sure that the password fit the minimum 6 character requirement from firebase.
+17. Add error alerts on all pages.
+18. Make sure that all session data is cleared on log out.
+19. Add the sorting functionality for the likes.

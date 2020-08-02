@@ -1,0 +1,77 @@
+
+Sprint Retrospective 1
+
+Members Present
+Lauren Hampson
+Satoshi Nakamura
+John Kang
+Alex Gertel
+Jung Choi
+
+Things to change:
+
+Marked down for task chart formatting-->Instead of listing the task chart in this document, we plan to change our task chart assignment 
+to an excel spreadsheet.
+We can have each team member have a section.  Then a column for to do, in progress, and completed, with tasks and sub tasks for each.
+We will really focus on having a better and more understandable task chart for this sprint
+
+We need to work on refactoring and review for this next sprint.  we will each make sure that by the first weekend we look at the github
+and look for issues in each others code, go through and refactor and review, in order to follow the best practices.  Additionally we 
+will need to review what high impact refactors will be.
+
+Marked down on test driven development for not seperating shell and tests-->The first step in our task sheets for this next sprint will 
+be more focused on the test driven development.  There will be steps like, write the tests, commit the tests, write the code, commit the 
+code, repeat so that we can follow TDD.
+
+Marked down for coding on development branch--> because we added tests and fixed merge conflicts in develop we were marked down. for 
+this next sprint we will make sure to fix the merge conflicts in the feature branches and then merge it to develop.
+
+Marked down for sustainable pace--> because we were marked down for not commiting code in the first part of the sprint, we will make 
+sure to commit code, or documentation of our planning so that the graders can see our progress being made.
+
+
+Sprint Review Notes
+1. Create a template for the front end of a login page for the WeatherPlanning app. Base the page on firebase user authentication or 
+google authentication. mockup login page, firebase or google authentication.
+    What to add to Sprint and Product Backlog:
+          Take away google authentication
+          Have logout functionality 
+          Change “Sing up” needs to be “sign up” on the Sign Up page
+          Redirecting to the homepage from login and sign up
+          Signing up signs in the user and redirects
+          Logout button on the nav bar on other pages
+          Valid account check on the log in 
+          No guest user functionality on the website
+          The user should be reflected across all pages
+          Implement tests
+2. To work on maintaining the user’s information beyond just a single session we plan to describe the system we want to implement, using 
+tools like mySQL or Firebase, to work towards the final goal of maintaining the user’s information.
+    What to add to Sprint and Product Backlog:
+          Just implement the database using firebase and get feedback on it later
+          Add tests for what you want to ask about
+3. Explain/Mockup how we plan to view the results of prior searches, and get feedback on our design.
+    What to add to Sprint and Product Backlog:
+          Just implement what we think we should do and then ask questions.
+          Could not get feedback on our design so far.
+4. Modify one of the current webpages to the ideal modern UI, run by the team before implementing on all pages.
+    What to add to Sprint and Product Backlog:
+          Change the nav bar color to be darker so it stands out from the webpage
+          Add the icons to the nav bar
+          Make show me the weather button one line
+          Change the “change units” button to a toggle between celsius and fahrenheit
+          When results load the page should not have a scroll bar on the side
+5. For the pagination of search results, change the front end for the search result table on one of the search pages, either Activity or 
+Vacation, and make it a number of pages to click through instead of scrolling through many results.
+    What to add to Sprint and Product Backlog:
+          Sorting feature needs to be fixed
+          Numbers need to start at one and continuously increase, should not update when the page is changed
+          Next and previous buttons need to be added
+          Show 5 pages at a time (if there are more than 5)
+6. As a first step to ranking the cities based on likes, design out a potential system for tracking likes, such as the user saves a city 
+to favorites, and each time a city is added to favorites by any users, then a like is added. 
+    What to add to Sprint and Product Backlog:
+          Implement what you think would work for liking photos and ask questions later
+7. Have an added box for distance radius on both the Activity and Vacation page.
+    What to add to Sprint and Product Backlog:
+          Add radius to the search field
+          Add tests for the radius

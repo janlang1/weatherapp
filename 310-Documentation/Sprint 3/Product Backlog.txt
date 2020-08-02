@@ -1,0 +1,32 @@
+Product Backlog Prior to Sprint 3
+
+
+1. The   application   must   be   secure   and   protect   confidentiality   of   users’   data. 
+2. Make sure that when a new user logs in, all session data has been cleared and the website is reinitialized
+3. Hash and unhash the passwords so that the users password is not stored as plain text in the firebase database
+4. Make sure the log out button is on all pages. 
+5. Maintain   users’   information   beyond   just   a   single   session 
+6. View   results   of   prior   searches   via   search   history. 
+7. Change the format of the search history page.  Instead of having a seperate search history page, make sure that it is the 
+last 4 most recent searches and is only present on the homepage. Add accpetance tests for this as well.  Make sure they are only valid
+searches
+8. User   interfaces   must   look   modern   and   be   attractive. 
+9. Acceptance tests needed for all UI aspects
+10. Move the nav bar to the bottom of the page on all pages
+11. Remove the num results field from the vacation and activity pages
+12. Make sure that the UI is consistent on all pages
+13. Make sure that the analysis page is fully funcitoning and has a consistent UI
+14. Allow   for   pagination   of   results   returned   by   both   searches. 
+15. Change the "prev" and "next" buttons on the vacation and activity pages to "Previous" and "Next"
+16. For pagination, make sure to highlight the current page that the user is on in the results section
+17. Allow   cities   returned   in   searches   to   be   ranked   by   likes. 
+18. Implement the liking system.  Since we were unable to gain feedback we will implement this to the best of our knowledge, and add acceptance
+tests to show how this works
+19. Set   the   distance   radius   of   both   searche
+20. Acceptance tests needed for the radius field on both vacation and activity
+21. Make sure that there are adequate acceptance tests for all aspects of the project, regardless of whether or not we have gained feedback
+22. Make sure that the accurate page is loaded when the user enters the website. 
+23. Make sure that the password fit the minimum 6 character requirement from firebase
+24. Add error alerts on all pages.
+25. Make sure that all session data is cleared on log out.
+26. Add the sorting functionality for the likes
